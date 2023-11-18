@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7B834DA2B08BE9500206458 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B834D92B08BE9500206458 /* Colors.swift */; };
+		F7E746A62B08A3A500BB3509 /* titkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A52B08A3A500BB3509 /* titkovApp.swift */; };
+		F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A72B08A3A500BB3509 /* ContentView.swift */; };
+		F7E746AA2B08A3A800BB3509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E746A92B08A3A800BB3509 /* Assets.xcassets */; };
+		F7E746AD2B08A3A800BB3509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E746AC2B08A3A800BB3509 /* Preview Assets.xcassets */; };
+		F7E746BF2B08ABEA00BB3509 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E746B92B08ABEA00BB3509 /* Poppins-Medium.ttf */; };
+		F7E746C02B08ABEA00BB3509 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E746BA2B08ABEA00BB3509 /* Poppins-Bold.ttf */; };
+		F7E746C12B08ABEA00BB3509 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E746BB2B08ABEA00BB3509 /* Poppins-SemiBold.ttf */; };
+		F7E746C32B08ACDF00BB3509 /* UserScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C22B08ACDF00BB3509 /* UserScrum.swift */; };
+		F7E746C82B08ADC700BB3509 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C52B08ADC600BB3509 /* Sizes.swift */; };
+		F7E746C92B08ADC700BB3509 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E746C62B08ADC600BB3509 /* Localizable.strings */; };
+		F7E746CA2B08ADC700BB3509 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C72B08ADC600BB3509 /* Fonts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7B834D92B08BE9500206458 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F7B834DB2B08CBCA00206458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7E746A22B08A3A400BB3509 /* titkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titkov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E746A52B08A3A500BB3509 /* titkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titkovApp.swift; sourceTree = "<group>"; };
+		F7E746A72B08A3A500BB3509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7E746A92B08A3A800BB3509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E746AC2B08A3A800BB3509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7E746B92B08ABEA00BB3509 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F7E746BA2B08ABEA00BB3509 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F7E746BB2B08ABEA00BB3509 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F7E746C22B08ACDF00BB3509 /* UserScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScrum.swift; sourceTree = "<group>"; };
+		F7E746C52B08ADC600BB3509 /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		F7E746C62B08ADC600BB3509 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E746C72B08ADC600BB3509 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E7469F2B08A3A400BB3509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E746992B08A3A400BB3509 = {
+			isa = PBXGroup;
+			children = (
+				F7E746A42B08A3A400BB3509 /* titkov */,
+				F7E746A32B08A3A400BB3509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E746A32B08A3A400BB3509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746A22B08A3A400BB3509 /* titkov.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E746A42B08A3A400BB3509 /* titkov */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746B82B08ABEA00BB3509 /* Fonts */,
+				F7B834DB2B08CBCA00206458 /* Info.plist */,
+				F7E746C42B08ADC600BB3509 /* AuxiliaryTools */,
+				F7E746B42B08ABEA00BB3509 /* scrums */,
+				F7E746A52B08A3A500BB3509 /* titkovApp.swift */,
+				F7E746A72B08A3A500BB3509 /* ContentView.swift */,
+				F7E746A92B08A3A800BB3509 /* Assets.xcassets */,
+				F7E746AB2B08A3A800BB3509 /* Preview Content */,
+			);
+			path = titkov;
+			sourceTree = "<group>";
+		};
+		F7E746AB2B08A3A800BB3509 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746AC2B08A3A800BB3509 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7E746B42B08ABEA00BB3509 /* scrums */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746C22B08ACDF00BB3509 /* UserScrum.swift */,
+			);
+			name = scrums;
+			path = "ç√";
+			sourceTree = "<group>";
+		};
+		F7E746B82B08ABEA00BB3509 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746B92B08ABEA00BB3509 /* Poppins-Medium.ttf */,
+				F7E746BA2B08ABEA00BB3509 /* Poppins-Bold.ttf */,
+				F7E746BB2B08ABEA00BB3509 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7E746C42B08ADC600BB3509 /* AuxiliaryTools */ = {
+			isa = PBXGroup;
+			children = (
+				F7E746C52B08ADC600BB3509 /* Sizes.swift */,
+				F7E746C62B08ADC600BB3509 /* Localizable.strings */,
+				F7E746C72B08ADC600BB3509 /* Fonts.swift */,
+				F7B834D92B08BE9500206458 /* Colors.swift */,
+			);
+			path = AuxiliaryTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E746A12B08A3A400BB3509 /* titkov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E746B02B08A3A800BB3509 /* Build configuration list for PBXNativeTarget "titkov" */;
+			buildPhases = (
+				F7E7469E2B08A3A400BB3509 /* Sources */,
+				F7E7469F2B08A3A400BB3509 /* Frameworks */,
+				F7E746A02B08A3A400BB3509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = titkov;
+			productName = titkov;
+			productReference = F7E746A22B08A3A400BB3509 /* titkov.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E7469A2B08A3A400BB3509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F7E746A12B08A3A400BB3509 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F7E7469D2B08A3A400BB3509 /* Build configuration list for PBXProject "titkov" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E746992B08A3A400BB3509;
+			productRefGroup = F7E746A32B08A3A400BB3509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E746A12B08A3A400BB3509 /* titkov */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E746A02B08A3A400BB3509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E746AD2B08A3A800BB3509 /* Preview Assets.xcassets in Resources */,
+				F7E746BF2B08ABEA00BB3509 /* Poppins-Medium.ttf in Resources */,
+				F7E746C02B08ABEA00BB3509 /* Poppins-Bold.ttf in Resources */,
+				F7E746C92B08ADC700BB3509 /* Localizable.strings in Resources */,
+				F7E746C12B08ABEA00BB3509 /* Poppins-SemiBold.ttf in Resources */,
+				F7E746AA2B08A3A800BB3509 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E7469E2B08A3A400BB3509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */,
+				F7B834DA2B08BE9500206458 /* Colors.swift in Sources */,
+				F7E746C32B08ACDF00BB3509 /* UserScrum.swift in Sources */,
+				F7E746CA2B08ADC700BB3509 /* Fonts.swift in Sources */,
+				F7E746C82B08ADC700BB3509 /* Sizes.swift in Sources */,
+				F7E746A62B08A3A500BB3509 /* titkovApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7E746AE2B08A3A800BB3509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7E746AF2B08A3A800BB3509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E746B12B08A3A800BB3509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"titkov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = titkov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.titkov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E746B22B08A3A800BB3509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"titkov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = titkov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.titkov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E7469D2B08A3A400BB3509 /* Build configuration list for PBXProject "titkov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E746AE2B08A3A800BB3509 /* Debug */,
+				F7E746AF2B08A3A800BB3509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E746B02B08A3A800BB3509 /* Build configuration list for PBXNativeTarget "titkov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E746B12B08A3A800BB3509 /* Debug */,
+				F7E746B22B08A3A800BB3509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E7469A2B08A3A400BB3509 /* Project object */;
+}
