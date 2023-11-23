@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7B834DA2B08BE9500206458 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B834D92B08BE9500206458 /* Colors.swift */; };
+		3F0620172B0F304000AE696F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620162B0F304000AE696F /* Header.swift */; };
+		3F0620192B0F312F00AE696F /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620182B0F312F00AE696F /* DoctorCard.swift */; };
+		3F06201B2B0F366D00AE696F /* DoctorScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06201A2B0F366D00AE696F /* DoctorScrum.swift */; };
+		3F06201E2B0F5EFE00AE696F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06201D2B0F5EFE00AE696F /* Colors.swift */; };
+		3F0620202B0F631700AE696F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06201F2B0F631700AE696F /* Search.swift */; };
+		3F0620222B0F644E00AE696F /* OptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620212B0F644E00AE696F /* OptionsList.swift */; };
+		3F0620242B0F647600AE696F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620232B0F647600AE696F /* Option.swift */; };
+		3F0620262B0F65FB00AE696F /* OptionsScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620252B0F65FB00AE696F /* OptionsScrum.swift */; };
+		3F0620282B0F742A00AE696F /* DoctorCardsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620272B0F742A00AE696F /* DoctorCardsElement.swift */; };
+		3F06202A2B0F775A00AE696F /* DoctorCardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620292B0F775A00AE696F /* DoctorCardsList.swift */; };
+		3F06202C2B0F78B200AE696F /* DoctorsListScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */; };
+		3F0620302B0F7E5500AE696F /* FooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06202F2B0F7E5500AE696F /* FooterButton.swift */; };
 		F7E746A62B08A3A500BB3509 /* titkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A52B08A3A500BB3509 /* titkovApp.swift */; };
 		F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A72B08A3A500BB3509 /* ContentView.swift */; };
 		F7E746AA2B08A3A800BB3509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E746A92B08A3A800BB3509 /* Assets.xcassets */; };
@@ -22,7 +33,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7B834D92B08BE9500206458 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3F0620162B0F304000AE696F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		3F0620182B0F312F00AE696F /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		3F06201A2B0F366D00AE696F /* DoctorScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorScrum.swift; sourceTree = "<group>"; };
+		3F06201D2B0F5EFE00AE696F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3F06201F2B0F631700AE696F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		3F0620212B0F644E00AE696F /* OptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsList.swift; sourceTree = "<group>"; };
+		3F0620232B0F647600AE696F /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		3F0620252B0F65FB00AE696F /* OptionsScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScrum.swift; sourceTree = "<group>"; };
+		3F0620272B0F742A00AE696F /* DoctorCardsElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardsElement.swift; sourceTree = "<group>"; };
+		3F0620292B0F775A00AE696F /* DoctorCardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardsList.swift; sourceTree = "<group>"; };
+		3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListScrum.swift; sourceTree = "<group>"; };
+		3F06202F2B0F7E5500AE696F /* FooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterButton.swift; sourceTree = "<group>"; };
 		F7B834DB2B08CBCA00206458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F7E746A22B08A3A400BB3509 /* titkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titkov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E746A52B08A3A500BB3509 /* titkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titkovApp.swift; sourceTree = "<group>"; };
@@ -49,6 +71,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F06201C2B0F521B00AE696F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F0620162B0F304000AE696F /* Header.swift */,
+				3F0620182B0F312F00AE696F /* DoctorCard.swift */,
+				3F06201F2B0F631700AE696F /* Search.swift */,
+				3F0620212B0F644E00AE696F /* OptionsList.swift */,
+				3F0620232B0F647600AE696F /* Option.swift */,
+				3F0620272B0F742A00AE696F /* DoctorCardsElement.swift */,
+				3F0620292B0F775A00AE696F /* DoctorCardsList.swift */,
+				3F06202F2B0F7E5500AE696F /* FooterButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F7E746992B08A3A400BB3509 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +105,7 @@
 		F7E746A42B08A3A400BB3509 /* titkov */ = {
 			isa = PBXGroup;
 			children = (
+				3F06201C2B0F521B00AE696F /* Views */,
 				F7E746B82B08ABEA00BB3509 /* Fonts */,
 				F7B834DB2B08CBCA00206458 /* Info.plist */,
 				F7E746C42B08ADC600BB3509 /* AuxiliaryTools */,
@@ -92,6 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				F7E746C22B08ACDF00BB3509 /* UserScrum.swift */,
+				3F06201A2B0F366D00AE696F /* DoctorScrum.swift */,
+				3F0620252B0F65FB00AE696F /* OptionsScrum.swift */,
+				3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */,
 			);
 			name = scrums;
 			path = "ç√";
@@ -113,7 +154,7 @@
 				F7E746C52B08ADC600BB3509 /* Sizes.swift */,
 				F7E746C62B08ADC600BB3509 /* Localizable.strings */,
 				F7E746C72B08ADC600BB3509 /* Fonts.swift */,
-				F7B834D92B08BE9500206458 /* Colors.swift */,
+				3F06201D2B0F5EFE00AE696F /* Colors.swift */,
 			);
 			path = AuxiliaryTools;
 			sourceTree = "<group>";
@@ -193,10 +234,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */,
-				F7B834DA2B08BE9500206458 /* Colors.swift in Sources */,
+				3F06201E2B0F5EFE00AE696F /* Colors.swift in Sources */,
 				F7E746C32B08ACDF00BB3509 /* UserScrum.swift in Sources */,
+				3F0620302B0F7E5500AE696F /* FooterButton.swift in Sources */,
+				3F0620172B0F304000AE696F /* Header.swift in Sources */,
+				3F06202A2B0F775A00AE696F /* DoctorCardsList.swift in Sources */,
+				3F06202C2B0F78B200AE696F /* DoctorsListScrum.swift in Sources */,
+				3F0620262B0F65FB00AE696F /* OptionsScrum.swift in Sources */,
+				3F0620242B0F647600AE696F /* Option.swift in Sources */,
 				F7E746CA2B08ADC700BB3509 /* Fonts.swift in Sources */,
+				3F0620192B0F312F00AE696F /* DoctorCard.swift in Sources */,
+				3F06201B2B0F366D00AE696F /* DoctorScrum.swift in Sources */,
+				3F0620282B0F742A00AE696F /* DoctorCardsElement.swift in Sources */,
+				3F0620202B0F631700AE696F /* Search.swift in Sources */,
 				F7E746C82B08ADC700BB3509 /* Sizes.swift in Sources */,
+				3F0620222B0F644E00AE696F /* OptionsList.swift in Sources */,
 				F7E746A62B08A3A500BB3509 /* titkovApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

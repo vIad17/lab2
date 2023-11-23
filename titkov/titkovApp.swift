@@ -1,18 +1,20 @@
-//
-//  titkovApp.swift
-//  titkov
-//
-//  Created by user225687 on 11/18/23.
-//
-
 import SwiftUI
 
 @main
 struct titkovApp: App {
-    var scrum = UserScrum.sampleData
+    var userScrum = UserScrum.sampleData
+    var doctorScrum = DoctorScrum.sampleData
+    var optionsScrum = OptionsScrum.sampleData
+    var doctorsListScrum = DoctorsListScrum.sampleData
+
     var body: some Scene {
         WindowGroup {
-            ContentView(scrum: UserScrum.sampleData)
+                ContentView(
+                userScrum: userScrum,
+                doctorScrum: doctorScrum,
+                optionsScrum: optionsScrum,
+                doctorsListScrum: doctorsListScrum
+            )
         }
     }
 }

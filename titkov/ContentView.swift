@@ -1,53 +1,62 @@
-//
-//  ContentView.swift
-//  pipipupuchek
-//
-//  Created by user225687 on 11/17/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    let scrum: UserScrum;
+    let userScrum: UserScrum;
+    let doctorScrum: DoctorScrum;
+    let optionsScrum: [OptionsScrum];
+    let doctorsListScrum: [DoctorsListScrum];
     var body: some View {
-        ZStack {
-            HStack(alignment: .center){
-                    
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("Hello,")
-                        .font(.custom(Fonts.poppins, size: Sizes.h2))
-                        .foregroundColor(Colors.grey)
-                    	
-                    Text("Hi " + scrum.username)
-                        .font(
-                            Font.custom(Fonts.poppins, size: Sizes.h1)
-                                .weight(.bold)
-                        )
-                        .foregroundColor(Colors.darkBlue)
-                        .padding(0)
-                    
+        NavigationView {
+            ScrollView{
+                VStack() {
+                    Header(scrum: userScrum)
+                    Spacer()
+                        .frame(height: 32)
+                    DoctorCard(scrum: doctorScrum)
+                    Spacer()
+                        .frame(height: 20)
+                    Search()
+                    Spacer()
+                        .frame(height: 24)
+                    OptionsList(scrums: optionsScrum)
+                    Spacer()
+                        .frame(height: 32)
+                    DoctorCardsList(scrums: doctorsListScrum)
                 }
-                Spacer()
-                Button(action: {}) {
-                    Image(scrum.image)
+                .padding()
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    HStack(
+                        spacing: 13,
+                        content: {
+                            FooterButton(isOpen: true,imageUrl: "home", caption: "Home")
+                            FooterButton(isOpen: false,imageUrl: "calendar", caption: "Calendar")
+                            FooterButton(isOpen: false,imageUrl: "message", caption: "Message")
+                            FooterButton(isOpen: false,imageUrl: "profile", caption: "Profile")
+                        }
+                    )
                 }
-
-            }.padding(0)
-            .frame(width: 327, alignment: .center)
-            
-        }
-            .frame(width: 375, height: 812)
-            .background(.white)
-    }
-        
-    
-    
-        
-        struct ContentView_Previews: PreviewProvider {
-            static var scrum = UserScrum.sampleData
-            static var previews: some View {
-                ContentView(scrum: scrum)
+            }
+                .background(Colors.white)
+                .padding(.horizontal, 24)
+                .padding(.vertical, 16)
             }
         }
     }
+        
+struct ContentView_Previews: PreviewProvider {
+    static var userScrum = UserScrum.sampleData
+    static var doctorScrum = DoctorScrum.sampleData
+    static var optionsScrum = OptionsScrum.sampleData
+    static var doctorsListScrum = DoctorsListScrum.sampleData
+    static var previews: some View {
+        ContentView(
+            userScrum: userScrum,
+            doctorScrum: doctorScrum,
+            optionsScrum: optionsScrum,
+            doctorsListScrum: doctorsListScrum
+        )
+    }
+}
 
