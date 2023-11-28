@@ -19,6 +19,8 @@
 		3F06202A2B0F775A00AE696F /* DoctorCardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0620292B0F775A00AE696F /* DoctorCardsList.swift */; };
 		3F06202C2B0F78B200AE696F /* DoctorsListScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */; };
 		3F0620302B0F7E5500AE696F /* FooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06202F2B0F7E5500AE696F /* FooterButton.swift */; };
+		CE68912B2B162772008ACB14 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68912A2B162772008ACB14 /* Footer.swift */; };
+		CE68912D2B1627F4008ACB14 /* FooterScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68912C2B1627F4008ACB14 /* FooterScrum.swift */; };
 		F7E746A62B08A3A500BB3509 /* titkovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A52B08A3A500BB3509 /* titkovApp.swift */; };
 		F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746A72B08A3A500BB3509 /* ContentView.swift */; };
 		F7E746AA2B08A3A800BB3509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E746A92B08A3A800BB3509 /* Assets.xcassets */; };
@@ -28,7 +30,6 @@
 		F7E746C12B08ABEA00BB3509 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E746BB2B08ABEA00BB3509 /* Poppins-SemiBold.ttf */; };
 		F7E746C32B08ACDF00BB3509 /* UserScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C22B08ACDF00BB3509 /* UserScrum.swift */; };
 		F7E746C82B08ADC700BB3509 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C52B08ADC600BB3509 /* Sizes.swift */; };
-		F7E746C92B08ADC700BB3509 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E746C62B08ADC600BB3509 /* Localizable.strings */; };
 		F7E746CA2B08ADC700BB3509 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E746C72B08ADC600BB3509 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		3F0620292B0F775A00AE696F /* DoctorCardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCardsList.swift; sourceTree = "<group>"; };
 		3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListScrum.swift; sourceTree = "<group>"; };
 		3F06202F2B0F7E5500AE696F /* FooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterButton.swift; sourceTree = "<group>"; };
+		CE68912A2B162772008ACB14 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		CE68912C2B1627F4008ACB14 /* FooterScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterScrum.swift; sourceTree = "<group>"; };
 		F7B834DB2B08CBCA00206458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F7E746A22B08A3A400BB3509 /* titkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titkov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E746A52B08A3A500BB3509 /* titkovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titkovApp.swift; sourceTree = "<group>"; };
@@ -56,7 +59,6 @@
 		F7E746BB2B08ABEA00BB3509 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		F7E746C22B08ACDF00BB3509 /* UserScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScrum.swift; sourceTree = "<group>"; };
 		F7E746C52B08ADC600BB3509 /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
-		F7E746C62B08ADC600BB3509 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		F7E746C72B08ADC600BB3509 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				3F0620272B0F742A00AE696F /* DoctorCardsElement.swift */,
 				3F0620292B0F775A00AE696F /* DoctorCardsList.swift */,
 				3F06202F2B0F7E5500AE696F /* FooterButton.swift */,
+				CE68912A2B162772008ACB14 /* Footer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				3F06201A2B0F366D00AE696F /* DoctorScrum.swift */,
 				3F0620252B0F65FB00AE696F /* OptionsScrum.swift */,
 				3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */,
+				CE68912C2B1627F4008ACB14 /* FooterScrum.swift */,
 			);
 			name = scrums;
 			path = "ç√";
@@ -152,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				F7E746C52B08ADC600BB3509 /* Sizes.swift */,
-				F7E746C62B08ADC600BB3509 /* Localizable.strings */,
 				F7E746C72B08ADC600BB3509 /* Fonts.swift */,
 				3F06201D2B0F5EFE00AE696F /* Colors.swift */,
 			);
@@ -220,7 +223,6 @@
 				F7E746AD2B08A3A800BB3509 /* Preview Assets.xcassets in Resources */,
 				F7E746BF2B08ABEA00BB3509 /* Poppins-Medium.ttf in Resources */,
 				F7E746C02B08ABEA00BB3509 /* Poppins-Bold.ttf in Resources */,
-				F7E746C92B08ADC700BB3509 /* Localizable.strings in Resources */,
 				F7E746C12B08ABEA00BB3509 /* Poppins-SemiBold.ttf in Resources */,
 				F7E746AA2B08A3A800BB3509 /* Assets.xcassets in Resources */,
 			);
@@ -233,10 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68912B2B162772008ACB14 /* Footer.swift in Sources */,
 				F7E746A82B08A3A500BB3509 /* ContentView.swift in Sources */,
 				3F06201E2B0F5EFE00AE696F /* Colors.swift in Sources */,
 				F7E746C32B08ACDF00BB3509 /* UserScrum.swift in Sources */,
 				3F0620302B0F7E5500AE696F /* FooterButton.swift in Sources */,
+				CE68912D2B1627F4008ACB14 /* FooterScrum.swift in Sources */,
 				3F0620172B0F304000AE696F /* Header.swift in Sources */,
 				3F06202A2B0F775A00AE696F /* DoctorCardsList.swift in Sources */,
 				3F06202C2B0F78B200AE696F /* DoctorsListScrum.swift in Sources */,

@@ -85,7 +85,7 @@ struct DoctorCardsElement: View {
 struct DoctorCardsElement_Previews: PreviewProvider {
     static var previews: some View {
         DoctorCardsElement(
-            image: "brostito_photo",
+            image: "mainDoctor",
             name: "Dr. Joseph Brostito",
             distance: 1.2,
             speciality: "Dental Specialist",

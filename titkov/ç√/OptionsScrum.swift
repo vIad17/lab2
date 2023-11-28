@@ -22,7 +22,7 @@ extension OptionsScrum {
         ),
         OptionsScrum(
             title: "Medicine",
-            image: "link"
+            image: "medicine"
         ),
         OptionsScrum(
             title: "Hospital",

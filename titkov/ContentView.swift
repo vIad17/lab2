@@ -5,6 +5,7 @@ struct ContentView: View {
     let doctorScrum: DoctorScrum;
     let optionsScrum: [OptionsScrum];
     let doctorsListScrum: [DoctorsListScrum];
+    let footerScrum: [FooterScrum];
     var body: some View {
         NavigationView {
             ScrollView{
@@ -27,15 +28,7 @@ struct ContentView: View {
             }
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
-                    HStack(
-                        spacing: 13,
-                        content: {
-                            FooterButton(isOpen: true,imageUrl: "home", caption: "Home")
-                            FooterButton(isOpen: false,imageUrl: "calendar", caption: "Calendar")
-                            FooterButton(isOpen: false,imageUrl: "message", caption: "Message")
-                            FooterButton(isOpen: false,imageUrl: "profile", caption: "Profile")
-                        }
-                    )
+                    Footer(scrums: footerScrum)
                 }
             }
                 .background(Colors.white)
@@ -50,12 +43,14 @@ struct ContentView_Previews: PreviewProvider {
     static var doctorScrum = DoctorScrum.sampleData
     static var optionsScrum = OptionsScrum.sampleData
     static var doctorsListScrum = DoctorsListScrum.sampleData
+    static var footerScrum = FooterScrum.sampleData
     static var previews: some View {
         ContentView(
             userScrum: userScrum,
             doctorScrum: doctorScrum,
             optionsScrum: optionsScrum,
-            doctorsListScrum: doctorsListScrum
+            doctorsListScrum: doctorsListScrum,
+            footerScrum: footerScrum
         )
     }
 }

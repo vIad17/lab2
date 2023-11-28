@@ -6,6 +6,7 @@ struct titkovApp: App {
     var doctorScrum = DoctorScrum.sampleData
     var optionsScrum = OptionsScrum.sampleData
     var doctorsListScrum = DoctorsListScrum.sampleData
+    var footerScrum = FooterScrum.sampleData
 
     var body: some Scene {
         WindowGroup {
@@ -13,7 +14,8 @@ struct titkovApp: App {
                 userScrum: userScrum,
                 doctorScrum: doctorScrum,
                 optionsScrum: optionsScrum,
-                doctorsListScrum: doctorsListScrum
+                doctorsListScrum: doctorsListScrum,
+                footerScrum: footerScrum
             )
         }
     }

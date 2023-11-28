@@ -21,7 +21,7 @@ extension DoctorsListScrum {
 
     static let sampleData: [DoctorsListScrum] = [
         DoctorsListScrum(
-            image: "brostito_photo",
+            image: "brostitoPhoto",
             name: "Dr. Joseph Brostito",
             distance: 1.2,
             speciality: "Dental Specialist",
@@ -30,7 +30,7 @@ extension DoctorsListScrum {
             openTime: "17:00"
         ),
         DoctorsListScrum(
-            image: "doctorPhoto",
+            image: "mainDoctor",
             name: "Dr. Imran Syahir",
             distance: 1.2,
             speciality: "General Doctor",
