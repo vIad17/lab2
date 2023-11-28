@@ -138,8 +138,7 @@
 				3F06202B2B0F78B200AE696F /* DoctorsListScrum.swift */,
 				CE68912C2B1627F4008ACB14 /* FooterScrum.swift */,
 			);
-			name = scrums;
-			path = "ç√";
+			path = scrums;
 			sourceTree = "<group>";
 		};
 		F7E746B82B08ABEA00BB3509 /* Fonts */ = {
